@@ -16,7 +16,6 @@
 
 # run dockerd
 echo "Starting docker daemon..."
-dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 --storage-driver=$STORAGE_DRIVER &
 
 yell() { echo "$0: $*" >&2; }
 die() { yell "$*"; exit 111; }
