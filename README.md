@@ -1,4 +1,5 @@
 # GoCD Agent Docker image
+# -----
 
 [GoCD agent](https://www.gocd.io) docker image based on debian 8.
 
