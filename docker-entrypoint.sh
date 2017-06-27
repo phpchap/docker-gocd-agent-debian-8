@@ -14,9 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# run dockerd
-echo "Starting docker daemon..."
-
 yell() { echo "$0: $*" >&2; }
 die() { yell "$*"; exit 111; }
 try() { echo "$ $@" 1>&2; "$@" || die "cannot $*"; }
